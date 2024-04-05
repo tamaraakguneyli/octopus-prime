@@ -1,0 +1,55 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.feature-page {
+  background-color: $base-main;
+  @include flexbox($direction: column, $justify: center, $align-items: center);
+
+  &__heading {
+    text-transform: uppercase;
+    color: $text-main;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  &__subheading {
+    background-color: $secondary-main;
+    border-radius: 10px;
+    color: $text-main;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  &__contents {
+    background-color: $base-main;
+    @include flexbox($direction: column, $justify: center, $align-items: center);
+  }
+
+  &__buttons {
+    background-color: $base-main;
+    @include flexbox(
+      $direction: column,
+      $justify: center,
+      $align-items: center
+    );
+  }
+
+  &__enable {
+    background-color: $secondary-main;
+    color: $text-main;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  &__not {
+    background-color: $base-main;
+    color: $text-main;
+    border: none;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+}

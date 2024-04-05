@@ -1,0 +1,27 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.benefits {
+    background-color: $base-dark;
+    border-radius: 12px;
+    width: 80%;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    @include flexbox($direction: column, $justify: center, $align-items: center);
+
+    &__information {
+        @include flexbox($direction: row, $justify: center, $align-items: center, $gap: 1rem);
+    }
+
+    &__heading {
+        color: $text-main;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    &__text {
+        color: $text-main;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
