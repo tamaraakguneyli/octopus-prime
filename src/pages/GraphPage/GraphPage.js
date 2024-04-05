@@ -8,7 +8,7 @@ export default function GraphPage() {
   return (
     <>
       <header className="graph-page">
-        <img src={header} alt="Iphone top of screen" />
+        <img src={header} alt="Iphone top of screen" className="graph-page__phone"/>
         <div className="graph-page__container">
           <h1 className="graph-page__heading">
             {" "}
