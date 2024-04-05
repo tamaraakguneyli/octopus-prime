@@ -71,7 +71,6 @@
   }
 
   &__button-block {
-    display: flex;
-    justify-content: flex-end;
+    @include flexbox($justify: flex-end);
   }
 }
