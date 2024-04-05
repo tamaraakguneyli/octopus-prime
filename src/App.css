@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../../assets/fonts/otf/Gotham-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("../../assets/fonts/otf/Gotham-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("../../assets/fonts/otf/Gotham-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #180048;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=App.css.map */

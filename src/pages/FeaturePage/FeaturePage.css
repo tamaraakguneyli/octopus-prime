@@ -1,0 +1,57 @@
+.feature-page {
+  background-color: #180048;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -0.5rem;
+  padding-left: 1rem;
+}
+.feature-page__heading {
+  text-transform: uppercase;
+  color: #d9ddff;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.feature-page__subheading {
+  background-color: #6675f6;
+  border-radius: 10px;
+  color: #f0ffff;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+.feature-page__contents {
+  background-color: #180048;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+.feature-page__buttons {
+  background-color: #180048;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature-page__enable {
+  background-color: #5840ff;
+  color: #f0ffff;
+  border: none;
+  border-radius: 20px;
+  width: 12.5rem;
+  padding: 0.5rem 0;
+  text-align: center;
+  margin: 1rem 0;
+  background-image: url(../../assets//images/lets-icons_bell-light.svg);
+  background-repeat: no-repeat;
+  background-position: 55px;
+}
+.feature-page__not {
+  background-color: #180048;
+  color: #f0ffff;
+  border: none;
+  text-align: center;
+  margin-bottom: 5rem;
+}/*# sourceMappingURL=FeaturePage.css.map */

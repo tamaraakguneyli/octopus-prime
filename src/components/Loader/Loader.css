@@ -1,0 +1,53 @@
+.loader {
+  background-color: #180048;
+}
+.loader__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100dvh;
+}
+.loader__heading {
+  color: #d9ddff;
+  font-size: 2rem;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader__bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.loader__circle {
+  background-color: #fa98ff;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  animation: loading 0.7s ease infinite;
+}
+.loader__circle--one {
+  animation-delay: 0.3s;
+}
+.loader__circle--two {
+  animation-delay: 0.4s;
+}
+.loader__circle--three {
+  animation-delay: 0.5s;
+}
+@keyframes loading {
+  0% {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  50% {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+}/*# sourceMappingURL=Loader.css.map */

@@ -1,0 +1,70 @@
+.latest-feature {
+  background-color: #180048;
+  padding: 1rem 1.5rem;
+  position: relative;
+  width: 25.8rem;
+}
+.latest-feature__header {
+  color: #f0ffff;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0.7rem 0;
+}
+
+.peak-savings {
+  background-color: #100030;
+  padding: 0.5rem 1rem;
+  height: 11.5rem;
+  width: 23rem;
+  border-radius: 15px;
+}
+.peak-savings__header {
+  color: #f0ffff;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 0.6rem;
+}
+.peak-savings__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.peak-savings__octopus-img {
+  width: 4.313rem;
+  height: 4.313rem;
+  border: 9px solid #18f0b8;
+  border-radius: 13px;
+}
+.peak-savings__coin-img {
+  position: absolute;
+  z-index: 10;
+  left: 5.7rem;
+  bottom: 7rem;
+}
+.peak-savings__text {
+  color: #f0ffff;
+  font-weight: 300;
+  font-size: 1rem;
+  width: 70%;
+  margin: 0.4rem 0;
+}
+.peak-savings__button {
+  background-color: #5840ff;
+  color: #f0ffff;
+  height: 1.938rem;
+  width: 7.125rem;
+  border: none;
+  border-radius: 20px;
+  background-image: url(../../assets/images/clarity_piggy-bank-line.svg);
+  background-repeat: no-repeat;
+  background-size: 1.238rem;
+  background-position: 0.5rem;
+  padding: 0rem 0 0 1.5rem;
+  margin-top: 0.5rem;
+}
+.peak-savings__button-block {
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=LatestFeature.css.map */
