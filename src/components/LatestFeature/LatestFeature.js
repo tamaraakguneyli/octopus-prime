@@ -1,20 +1,35 @@
 import React from "react";
 import "./LatestFeature.scss";
+import octopus from "../../assets/images/octopus-img.png";
+import coins from "../../assets/images/coin-2.svg";
 
 export default function LatestFeature() {
   return (
-    <section>
-      <h1>Our Latest Feature</h1>
-      <div>
-        <h2>Peak Savings for Off-Peak Times</h2>
-        <div>
-          <img src="" alt="octopus with coins" />
-          <p>
+    <section className="latest-feature">
+      <h1 className="latest-feature__header">Our latest feature</h1>
+      <div className="peak-savings">
+        <h2 className="peak-savings__header">
+          Peak Savings for Off-Peak Times
+        </h2>
+        <div className="peak-savings__body">
+          <img
+            src={octopus}
+            alt="octopus with coins"
+            className="peak-savings__octopus-img"
+          />
+          <img
+            src={coins}
+            alt="3 golden coins"
+            className="peak-savings__coin-img"
+          />
+          <p className="peak-savings__text">
             Save money, earn points, and help the environment, once notification
             at a time.
           </p>
         </div>
-        <button>Save now</button>
+        <div className="peak-savings__button-block">
+          <button className="peak-savings__button">Save now</button>
+        </div>
       </div>
     </section>
   );
