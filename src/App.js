@@ -1,5 +1,10 @@
-function App() {
-  return <></>;
-}
+import HomePage from "./pages/HomePage/HomePage";
+import "./App.scss";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <HomePage />
+    </>
+  );
+}
