@@ -19,7 +19,7 @@
 .peak-savings {
   background-color: $base-dark;
   padding: 0.5rem 1rem;
-  height: 9.313rem;
+  height: 11.5rem;
   width: 23rem;
   border-radius: 15px;
 
@@ -27,7 +27,7 @@
     color: $text-main;
     font-weight: 500;
     font-size: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.6rem;
   }
   &__body {
     @include flexbox(
@@ -45,8 +45,8 @@
   &__coin-img {
     position: absolute;
     z-index: 10;
-    left: 5rem;
-    bottom: 6rem;
+    left: 5.7rem;
+    bottom: 7rem;
   }
   &__text {
     color: $text-main;
@@ -66,8 +66,8 @@
     background-repeat: no-repeat;
     background-size: 1.238rem;
     background-position: 0.5rem;
-    padding: 0.6rem 0 0 1.5rem;
-    margin-right: 0.5rem;
+    padding: 0rem 0 0 1.5rem;
+    margin-top: 0.5rem;
   }
 
   &__button-block {
