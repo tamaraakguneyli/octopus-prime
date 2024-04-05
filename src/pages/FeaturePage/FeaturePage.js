@@ -8,7 +8,11 @@ export default function FeaturePage() {
   return (
     <>
       <header className="feature-page">
-        <img src={header} alt="Iphone top of screen" className="feature__image" />
+        <img
+          src={header}
+          alt="Iphone top of screen"
+          className="feature__image"
+        />
         <h1 className="feature-page__heading">Introducing</h1>
         <h2 className="feature-page__subheading">Smart Notifications</h2>
       </header>
@@ -19,7 +23,9 @@ export default function FeaturePage() {
           <Link to="/loading">
             <button className="feature-page__enable">Enable</button>
           </Link>
-          <button className="feature-page__not">Not Now</button>
+          <Link to="/">
+            <button className="feature-page__not">Not Now</button>
+          </Link>
         </div>
       </main>
     </>
