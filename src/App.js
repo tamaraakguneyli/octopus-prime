@@ -7,11 +7,11 @@ import Loader from "./components/Loader/Loader";
 export default function App() {
   return (
     <BrowserRouter>
-    <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/feature" element={<FeaturePage/>}/>
-        <Route path="/loading" element={<Loader/>}/>
-    </Routes>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/feature" element={<FeaturePage />} />
+        <Route path="/loading" element={<Loader />} />
+      </Routes>
     </BrowserRouter>
   );
 }
