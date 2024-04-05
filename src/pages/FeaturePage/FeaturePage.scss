@@ -4,6 +4,7 @@
 .feature-page {
   background-color: $base-main;
   @include flexbox($direction: column, $justify: center, $align-items: center);
+margin-bottom: -0.5rem;
 
   &__heading {
     text-transform: uppercase;
