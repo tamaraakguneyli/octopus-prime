@@ -1,4 +1,6 @@
 @use "./typography";
+@use "./variables" as *;
+
 *,
 *::before,
 *::after {
@@ -8,6 +10,7 @@
 
 body {
   margin: 0;
+  background-color: $base-main;
 }
 
 a {
