@@ -1,0 +1,58 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+
+.loader{
+    background-color: $base-main;
+
+    &__container {
+        @include flexbox($direction: column, $justify: center, $align-items: center);
+        position: relative;
+        height: 100dvh;
+    }
+
+    &__heading {
+        color: $text-light;
+        font-size: 2rem;
+        min-width: max-content;
+        margin-bottom: 1rem;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__bar {
+        @include flexbox($justify: space-between, $gap: 1.5rem);
+    }
+
+    &__circle {
+        background-color: $primary-light;
+        width: .7rem;
+        height: .7rem;
+        border-radius: 50%;
+        animation: loading .7s ease infinite;
+
+        &--one {
+            animation-delay: .3s;
+        }
+        &--two {
+            animation-delay: .4s;
+        }
+        &--three {
+            animation-delay: .5s;
+        }
+    }
+
+    @keyframes loading {
+        0% {
+            width: .7rem;
+            height: .7rem;
+        }
+
+        50% {
+            width: .5rem;
+            height: .5rem;
+        }
+    }
+}
