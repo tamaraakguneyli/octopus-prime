@@ -4,24 +4,32 @@
 .benefits {
     background-color: $base-dark;
     border-radius: 12px;
-    width: 80%;
+    width: 85%;
     margin-bottom: 3rem;
     margin-top: 2rem;
+    padding: 1rem;
     @include flexbox($direction: column, $justify: center, $align-items: center);
 
     &__information {
         @include flexbox($direction: row, $justify: center, $align-items: center, $gap: 1rem);
     }
 
+    &__image {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
     &__heading {
         color: $text-main;
         font-size: 1rem;
         font-weight: 500;
+        margin-bottom: 0;
     }
 
     &__text {
         color: $text-main;
-        font-size: 1rem;
+        font-size: 0.85rem;
         font-weight: 300;
+        margin-top: 0.25rem;
     }
 }

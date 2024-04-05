@@ -7,7 +7,7 @@
 
   &__heading {
     text-transform: uppercase;
-    color: $text-main;
+    color: $text-light;
     font-size: 1rem;
     margin-bottom: 0;
   }
@@ -17,7 +17,7 @@
     border-radius: 10px;
     color: $text-main;
     margin-top: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.25rem 0.5rem;
   }
 
   &__contents {
@@ -39,10 +39,13 @@
     color: $text-main;
     border: none;
     border-radius: 20px;
-    width: 10rem;
+    width: 12.5rem;
     padding: 0.5rem 0;
     text-align: center;
     margin: 1rem 0;
+    background-image: url(../../assets//images/lets-icons_bell-light.svg);
+    background-repeat: no-repeat;
+    background-position: 55px;
   }
 
   &__not {
