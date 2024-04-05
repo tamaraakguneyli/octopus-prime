@@ -2,6 +2,7 @@ import React from "react";
 import "./LatestFeature.scss";
 import octopus from "../../assets/images/octopus-img.png";
 import coins from "../../assets/images/coin-2.svg";
+import { Link } from "react-router-dom";
 
 export default function LatestFeature() {
   return (
@@ -28,7 +29,7 @@ export default function LatestFeature() {
           </p>
         </div>
         <div className="peak-savings__button-block">
-          <button className="peak-savings__button">Save now</button>
+          <Link to="/feature"><button className="peak-savings__button">Save now</button></Link>
         </div>
       </div>
     </section>

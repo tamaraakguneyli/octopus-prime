@@ -1,5 +1,6 @@
 import Benefits from "../../components/Benefits/Benefits";
 import Reminder from "../../components/Reminder/Reminder";
+import { Link } from "react-router-dom";
 import "./FeaturePage.scss";
 
 export default function FeaturePage() {
@@ -13,7 +14,7 @@ export default function FeaturePage() {
         <Reminder/>
         <Benefits/>
         <div className="feature-page__buttons">
-          <button className="feature-page__enable">Enable</button>
+          <Link to="/loading"><button className="feature-page__enable">Enable</button></Link>
           <button className="feature-page__not">Not Now</button>
         </div>
       </main>
