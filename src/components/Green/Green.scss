@@ -1,0 +1,55 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.green {
+  background-color: $base-main;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 4rem;
+
+  &__message {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  &__text {
+    color: $text-main;
+    font-size: 0.75rem;
+    font-weight: 300;
+
+    &--height {
+      line-height: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    &--bold {
+      font-weight: 500;
+    }
+
+    &--enhanced {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+
+  &__information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  &__activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 35%;
+  }
+
+  &__image {
+    padding-right: 1.5rem;
+  }
+}

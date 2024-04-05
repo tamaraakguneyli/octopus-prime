@@ -1,0 +1,42 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.graph {
+  background-color: $base-dark;
+
+  &__container {
+    padding: 0 1rem;
+    height: 35vh;
+    margin-top: 2rem;
+  }
+
+  &__month {
+    @include flexbox($justify: space-between, $align-items: center);
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+  }
+
+  &__heading {
+    color: $text-light;
+    font-size: 1.1rem;
+  }
+
+  &__chevron {
+    height: 1rem;
+  }
+
+  &__chart {
+    position: relative;
+  }
+
+  &__current-energy {
+    position: absolute;
+    right: 5px;
+    bottom: 77px;
+  }
+
+  &__axis {
+    color: $text-light;
+    font-size: 0.4rem;
+  }
+}
